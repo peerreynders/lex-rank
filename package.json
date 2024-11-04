@@ -1,0 +1,31 @@
+{
+  "name": "lex-rank",
+	"type": "module",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write ./src ./test ./sample.ts",
+    "lint:types": "tsc --noEmit",
+		"exec": "node --import ts-blank-space/register",
+    "test": "pnpm run exec -- ./test/index.ts",
+    "sample": "pnpm run exec -- ./sample.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peerreynders/lex-rank"
+  },
+	"keywords": [],
+  "author": "Peer Reynders",
+  "license": "MIT",
+  "homepage": "https://github.com/peerreynders/lex-rank#readme",
+  "bugs": {
+    "url": "https://github.com/peerreynders/lex-rank/issues"
+	},
+	"devDependencies": {
+    "prettier": "^3.3.3",
+    "ts-blank-space": "^0.4.1",
+    "typescript": "^5.6.3",
+    "uvu": "^0.5.6"
+  }
+}

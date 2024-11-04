@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"allowJs": true,
+		"strict": true,
+		"noEmit": true,
+		"types": [],
+		"isolatedModules": true,
+		"paths": {
+      "~/*": ["./src/*","./test/*"]
+    },
+		"useDefineForClassFields": true,
+		"verbatimModuleSyntax": true
+	}
+}
